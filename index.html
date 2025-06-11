@@ -16,5 +16,14 @@
       <!-- Тут будут пункты меню -->
     </ul>
   </div>
+  <script>
+  const items = document.querySelectorAll('.menu-item');
+  items.forEach(item => {
+    item.addEventListener('click', () => {
+      items.forEach(i => i.classList.remove('active'));
+      item.classList.add('active');
+    });
+  });
+</script>
 </body>
 </html>
