@@ -27,7 +27,9 @@ body {
   transition: background 0.3s;
 }
 
-.menu-item:hover {
+.menu-item.active {
   background-color: #333;
   color: #fff;
+  font-weight: bold;
 }
+
