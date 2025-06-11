@@ -43,12 +43,21 @@
 </div>
   <script>
   const items = document.querySelectorAll('.menu-item');
+  const sections = {
+    "Home": document.getElementById("home-content"),
+    "Playlists": document.getElementById("playlists-content"),
+    "Favorites": document.getElementById("favorites-content")
+  };
+
   items.forEach(item => {
     item.addEventListener('click', () => {
       items.forEach(i => i.classList.remove('active'));
       item.classList.add('active');
+
+      const selected = item.textContent.trim();
+      for (let key in sections) {
+        sections[key].style.display = key === selected ? "block" : "none";
+      }
     });
   });
 </script>
-</body>
-</html>
