@@ -20,12 +20,14 @@ body {
 }
 
 .menu-item {
-  padding: 12px 16px;
-  margin-bottom: 12px;
-  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  padding: 12px 20px;
+  color: #ff7f9c;
   cursor: pointer;
-  transition: all 0.3s ease;
-  color: #ccc;
+  transition: 0.3s;
 }
 
 .menu-item:hover {
@@ -49,5 +51,10 @@ body {
   text-shadow: 0 0 3px #00e0ff;
   border-bottom: 1px solid #1a1a1a;
   box-shadow: 0 0 4px #00e0ff33;
+}
+.menu-item i {
+  font-size: 20px;
+  min-width: 24px;
+  text-align: center;
 }
 
