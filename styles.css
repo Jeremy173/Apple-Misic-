@@ -51,7 +51,14 @@ body {
   text-shadow: 0 0 3px #00e0ff;
   border-bottom: 1px solid #1a1a1a;
   box-shadow: 0 0 4px #00e0ff33;
+  transition: all 0.3s ease;
+  cursor: default;
 }
+.site-header:hover {
+  text-shadow: 0 0 6px #00e0ff, 0 0 12px #00e0ffaa;
+  box-shadow: 0 0 8px #00e0ff55;
+}
+
 .menu-item i {
   font-size: 20px;
   min-width: 24px;
