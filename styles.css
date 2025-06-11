@@ -70,3 +70,28 @@ body {
   min-width: 24px;
   text-align: center;
 }
+.content {
+  margin-left: 240px; /* отступ от левого меню */
+  padding: 40px;
+  color: #fff;
+}
+
+.welcome {
+  background-color: #121212;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px #00e0ff33;
+  text-align: center;
+}
+
+.welcome h2 {
+  font-size: 28px;
+  color: #00e0ff;
+  margin-bottom: 10px;
+}
+
+.welcome p {
+  font-size: 18px;
+  color: #ccc;
+}
+
