@@ -94,4 +94,44 @@ body {
   font-size: 18px;
   color: #ccc;
 }
+.playlist {
+  background-color: #121212;
+  padding: 30px;
+  margin-left: 240px;
+  border-radius: 16px;
+  box-shadow: 0 0 8px #00e0ff33;
+  color: #fff;
+}
+
+.playlist h2 {
+  font-size: 26px;
+  color: #00e0ff;
+  margin-bottom: 20px;
+}
+
+.track-list {
+  list-style: none;
+  padding: 0;
+}
+
+.track-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.track-list li i {
+  margin-right: 10px;
+  color: #00d8ff;
+}
+
+.track-list li span {
+  color: #aaa;
+  font-size: 14px;
+}
 
