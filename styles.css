@@ -44,7 +44,7 @@ body {
 }
 .site-header {
   background-color: #0f0f0f;
-  padding: 20px 30px;
+  padding: 10px 30px; /* Уменьшено с 20px до 10px сверху и снизу */
   color: #00e0ff;
   font-size: 24px;
   font-weight: bold;
@@ -54,6 +54,12 @@ body {
   transition: all 0.3s ease;
   cursor: default;
 }
+
+.site-header h1 {
+  margin: 0; /* Это убирает лишние отступы сверху и снизу */
+  padding: 0;
+}
+
 .site-header:hover {
   text-shadow: 0 0 6px #00e0ff, 0 0 12px #00e0ffaa;
   box-shadow: 0 0 8px #00e0ff55;
